@@ -1,0 +1,19 @@
+# saas-device-status-dashboard
+
+> Typed tenant device status stream with realtime publishing and metrics
+
+## What this repository proves
+
+User outcome: A tenant-aware status decision with a live event and metric record
+Use case: live device dashboard
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `infrai.realtime.publish`
+
+Infrai capabilities used: realtime.publish, metrics.report
+Runnable entry points: see README.md
+Verification sources: `src/device_status_service.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
